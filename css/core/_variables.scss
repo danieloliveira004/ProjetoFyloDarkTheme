@@ -1,0 +1,20 @@
+// COLORS PALETTE
+
+// ### Primary
+$dark-blue-into: hsl(217, 28%, 15%); // - Dark Blue (intro and email sign up background): 
+$dark-blue-background: hsl(218, 28%, 13%); // - Dark Blue (main background):
+$dark-blue-footer: hsl(216, 53%, 9%); // - Dark Blue (footer background):
+$dark-blue-testimonials: hsl(219, 30%, 18%); // - Dark Blue (testimonials background): 
+
+// ### Accent
+$cyan: hsl(176, 68%, 64%); // - Cyan (inside call-to-action gradient): 
+$blue: hsl(198, 60%, 50%); // - Blue (inside call-to-action gradient):
+$red-light: hsl(0, 100%, 63%); // - Light Red (error): 
+
+// ### Neutral
+$white: hsl(0, 0%, 100%); // - White:
+$dark-white: hsl(195, 3%, 73%);
+
+// CONTAINER
+$container: 1440px;
+$container-min: 375px;

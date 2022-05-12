@@ -1,0 +1,27 @@
+#front-cover {
+  padding-top: 80px;
+  text-align: center;
+  
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    @include raleway(700);
+    font-size: 2.5em;
+    padding: 5% 0;
+    line-height: 1.4em;
+  }
+
+  p {
+    color: $dark-white;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0 6em;
+    margin-bottom: 25px;
+  }
+
+  .texto {
+    padding: 0 20%;
+  }
+}

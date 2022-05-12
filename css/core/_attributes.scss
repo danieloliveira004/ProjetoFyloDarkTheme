@@ -1,0 +1,28 @@
+#attributes {padding: 6em 0;}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-card {
+  width: calc(100% / 2 - 4em);
+  text-align: center;
+  padding: 2%;
+
+  svg {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    margin-bottom: .5em;
+  }
+
+  p {
+    padding: 0 4em;
+    line-height: 1.4em;
+  }
+}
