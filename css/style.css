@@ -58,13 +58,15 @@ table {
   text-decoration: none;
 }
 
-body, html {
+body,
+html {
   min-width: 375px;
 }
 
 body {
   font-size: 14px;
-  background: #181f2a;
+  background: url("../../images/bg-curvy-desktop.svg") no-repeat, linear-gradient(to bottom, #1c2431 0 25%, #181f2a 35% 100%);
+  background-position: 0 25%;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -102,7 +104,7 @@ h5 {
   color: white;
   font-size: 1.1em;
   border-radius: 20px;
-  transition: filter .8s ease;
+  transition: filter 0.8s ease;
 }
 .btn:hover, #contact-container form button:hover {
   filter: brightness(1.2);
@@ -461,7 +463,8 @@ footer .logo {
   #front-cover h1 {
     font-size: 2em;
   }
-  #front-cover p, #front-cover .texto {
+  #front-cover p,
+  #front-cover .texto {
     padding: 0;
   }
 
@@ -469,12 +472,18 @@ footer .logo {
     width: 100%;
   }
 
+  body {
+    background: url("../images/bg-curvy-mobile.svg") no-repeat, linear-gradient(to bottom, #1c2431 0 15%, #181f2a 20% 100%);
+    background-position: 0 15%;
+    background-size: 100%;
+  }
+
   #produtive {
     flex-direction: column;
   }
   #produtive h2 {
     font-size: 2em;
-    padding-top: .8em;
+    padding-top: 0.8em;
   }
   #produtive img {
     width: calc(100% / 1.5);
@@ -534,6 +543,6 @@ footer .logo {
   }
 
   #contact-container {
-    padding: 2em  1em;
+    padding: 2em 1em;
   }
 }

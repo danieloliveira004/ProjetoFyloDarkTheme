@@ -1,22 +1,35 @@
 @media (max-width: 900px) {
   // FRONT-COVER
   #front-cover {
-    h1 {font-size: 2em;}
-    p, .texto {padding: 0;}
+    h1 {
+      font-size: 2em;
+    }
+    p,
+    .texto {
+      padding: 0;
+    }
   }
 
   // CARD
-  .container-card  {
+  .container-card {
     width: 100%;
   }
 
- 
+  body {
+    background: url("../images/bg-curvy-mobile.svg") no-repeat,
+      linear-gradient(to bottom, $dark-blue-into 0 15%, $dark-blue-background 20% 100%);
+    background-position: 0 15%;
+    background-size: 100%;
+  }
 
   // PRODUTIVE
   #produtive {
     flex-direction: column;
 
-    h2 {font-size:  2em; padding-top: .8em;}
+    h2 {
+      font-size: 2em;
+      padding-top: 0.8em;
+    }
 
     img {
       width: calc(100% / 1.5);
@@ -27,7 +40,7 @@
   // COMMENTS
   #comments {
     flex-direction: column;
-    
+
     .container-comment {
       width: 100%;
       max-width: calc(100% - 4em);
@@ -58,7 +71,9 @@
     gap: 20px;
     padding: 0;
   }
-  .contact {gap:20px}
+  .contact {
+    gap: 20px;
+  }
 
   .nav-links {
     flex-direction: column;
@@ -81,6 +96,6 @@
 
   // CONTACT
   #contact-container {
-    padding: 2em  1em;
+    padding: 2em 1em;
   }
 }
