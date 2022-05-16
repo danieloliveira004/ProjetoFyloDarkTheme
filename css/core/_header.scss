@@ -5,7 +5,10 @@
 
   .logo {
     display: flex;
-    height: 35px;
+    height: 30px;
+    img {
+      object-fit: contain;
+    }
   }
   
   ul {
@@ -16,7 +19,7 @@
 
     a {
       @include raleway(400);
-      font-size: .8em;
+      font-size: 1.2em;
       display: block;
       padding: 8px 10px;
       transition: color .8s ease ;
