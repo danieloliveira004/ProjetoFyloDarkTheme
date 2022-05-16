@@ -3,17 +3,26 @@
   text-decoration: none;
 }
 
+body, html {min-width: $container-min;}
+
 body {
   font-size: 14px;
   background: $dark-blue-background;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
 // COLORS
-p, a {color: $dark-white;}
+p,
+a {
+  color: $dark-white;
+}
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   @include raleway(700);
   color: $white;
 }
@@ -30,10 +39,17 @@ h1, h2, h3, h4, h5{
 // BTN
 .btn {
   @include raleway(700);
+  cursor: pointer;
   display: inline-block;
   padding: 1em 7em;
   background: linear-gradient(to right, $cyan, $blue);
   color: white;
   font-size: 1.1em;
   border-radius: 20px;
+  transition: filter .8s ease;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
 }
+

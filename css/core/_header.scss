@@ -3,17 +3,28 @@
   justify-content: space-between;
   padding-top: 5%;
 
+  .logo {
+    display: flex;
+    height: 35px;
+  }
+  
   ul {
     display: flex;
     height: 100%;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 
     a {
       @include raleway(400);
+      font-size: .8em;
       display: block;
       padding: 8px 10px;
+      transition: color .8s ease ;
+
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
     }
   }
-
 }

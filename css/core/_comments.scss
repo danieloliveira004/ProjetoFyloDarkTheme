@@ -2,19 +2,8 @@
   position: relative;
   display: flex;
   gap: 2em;
-  
-  &::after {
-    content: '';
-    display: block;
-    width: 4em;
-    height: 3.5em;
-    z-index: 5;
-    position: absolute;
-    background: url('../../images/bg-quotes.png') no-repeat;
-    background-size: contain;
-    top: -1.5em;
-    padding-right: 30px;
-  }
+  padding-top: 8em;
+  padding-bottom: 16em;
 }
 
 .container-comment {
@@ -43,6 +32,19 @@
     top: 0;
     left: 0;
     z-index: -1;
+  }
+
+  #quotes {
+    position: absolute;
+    top: -25px;
+    left: -5px;
+    z-index: -1;
+    height: 30px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
 }
